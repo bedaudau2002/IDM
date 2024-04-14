@@ -48,7 +48,10 @@ cd ~
 git clone https://github.com/ModularPrintingSystem/IDM.git
 ./IDM/install.sh
 ```
-
+ 'permission denied' error in bash typically occurs when you try to execute a file or command without the necessary permissions. To fix it, you can use the 'chmod' with the syntax chmod [option] [permissions] filename.
+ ```
+  chmod +x install.sh
+ ```
 You can advance to the next sections and edit your config files while you wait.
 
 ## 3. Configure Klipper for IDM
